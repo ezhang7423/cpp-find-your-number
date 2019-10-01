@@ -11,7 +11,7 @@ char test(int guess){
 }
 
 int detJumpSize(int lowestHighe, int highestLow, char lastJump, int lastJumpSize){
-    cout << "lowest high: " << lowestHighe << "\nhighest low: " << highestLow << "\n";
+    //cout << "lowest high: " << lowestHighe << "\nhighest low: " << highestLow << "\n";
     if (lowestHighe and highestLow){
         int newJump = (highestLow-lowestHighe)/2;
         if (lastJump == 'h') return (newJump);
